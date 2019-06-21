@@ -20,10 +20,10 @@ public class ProducerTwitter {
         final Logger logger = LoggerFactory.getLogger(ProducerTwitter.class.getName());
 
         // Twitter Auth
-        String key = "gzE4wMysjGw4r6zbuTLhJoDQg";
-        String secretKey = "qycBwkA6YNfhoZUvWg3lG7tDuiweuk3IybmUsfdnA8EUjWBkKE";
-        String token = "306267198-2uCjvk6edHBKkwMCgxDD11tRqJq0w6OO2iX4jvT7";
-        String secretToken = "aW9XjV0uTFGD8P4NaRKlrECj9jCFv7exUBgfjoA69ZaJZ";
+        String key = "";
+        String secretKey = "";
+        String token = "";
+        String secretToken = "";
 
         // Init Kafka Producer
         String bootstrapServer = "127.0.0.1:9092";
